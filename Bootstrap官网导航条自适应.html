@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <style>
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header navbar-right">
+                    <!--自适应的交互-->                       <!--折叠-->
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#mydiv">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="" class="navbar-brand hidden-sm hidden-xs">关于</a>
+                    <a href="" class="navbar-brand hidden-sm hidden-md hidden-lg">Bootstrap中文网</a>
+                </div>
+                <!--与上面对应做交互的菜单-->
+                <div id="mydiv" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="hidden-sm"><a href="">Bootstrap中文网</a></li>
+                        <li class="hidden-md hidden-sm"><a href="">Bootstrap2中文文档</a></li>
+                        <li><a href=""> Bootstrap3中文文档</a></li>
+                        <li><a href="">Bootstrap 4.0 预览</a></li>
+                        <li><a href="">Less 教程</a></li>
+                        <li><a href="">jQuery API</a></li>
+                        <li><a href="">网站实例</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
